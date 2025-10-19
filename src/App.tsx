@@ -1,7 +1,8 @@
-import AppRouter from "./Router/AppRouter"
+import INavbar from "./components/INavbar"
+// import AppRouter from "./Router/AppRouter"
 
 function App() {
-  return <AppRouter />
+  return <INavbar />
 }
 
 export default App
