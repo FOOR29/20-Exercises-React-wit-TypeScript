@@ -7,6 +7,7 @@ const INavbar = () => {
                 <li><NavLink to="/Counter">Num 1</NavLink></li>
                 <li><NavLink to="/SwitchLight">Num 2</NavLink></li>
                 <li><NavLink to="/TextLive">Num 3</NavLink></li>
+                <li><NavLink to="/Visibility">Num 4</NavLink></li>
             </ul>
         </nav>
     )

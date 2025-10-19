@@ -5,6 +5,7 @@ import NotFound from "../Pages/NotFound"
 import TextLive from "../Pages/TextLive"
 import Home from "../Pages/Home"
 import MainLayout from "../layouts/MainLayout"
+import Visibility from "../Pages/Visibility"
 
 const AppRouter = () => {
     return (
@@ -16,6 +17,7 @@ const AppRouter = () => {
                 <Route path="/Counter" element={<Counter />} />
                 <Route path="/SwitchLight" element={<SwitchLight />} />
                 <Route path="/TextLive" element={<TextLive />} />
+                <Route path="/Visibility" element={<Visibility />} />
             </Route>
 
             <Route path="*" element={<NotFound />} />
