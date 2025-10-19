@@ -2,7 +2,7 @@ import INavbar from "./INavbar"
 
 const Header = () => {
     return (
-        <header>
+        <header className="pb-2.5">
             <INavbar />
         </header>
     )

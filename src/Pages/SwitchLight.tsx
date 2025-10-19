@@ -1,7 +1,9 @@
 
 const SwitchLight = () => {
     return (
-        <div>SwitchLight</div>
+        <>
+            <div>SwitchLight</div>
+        </>
     )
 }
 

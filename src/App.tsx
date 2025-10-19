@@ -1,8 +1,8 @@
-import INavbar from "./components/INavbar"
-// import AppRouter from "./Router/AppRouter"
+import AppRouter from "./Router/AppRouter"
 
 function App() {
-  return <INavbar />
+  return <AppRouter />
+  // return <IButton>ksksk</IButton>
 }
 
 export default App

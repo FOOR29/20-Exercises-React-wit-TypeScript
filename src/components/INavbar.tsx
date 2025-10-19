@@ -2,11 +2,11 @@ import { NavLink } from "react-router-dom"
 
 const INavbar = () => {
     return (
-        <nav>
-            <ul className="menu menu-vertical lg:menu-horizontal bg-base-200 rounded-box">
-                <li><NavLink to="/">1</NavLink></li>
-                <li><NavLink to="SwitchLight">2</NavLink></li>
-                <li><NavLink to="">3</NavLink></li>
+        <nav className="flex justify-center">
+            <ul className="menu menu-horizontal bg-base-200 font-medium">
+                <li><NavLink to="/Counter">Num 1</NavLink></li>
+                <li><NavLink to="/SwitchLight">Num 2</NavLink></li>
+                <li><NavLink to="/TextLive">Num 3</NavLink></li>
             </ul>
         </nav>
     )
