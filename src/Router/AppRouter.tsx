@@ -7,6 +7,7 @@ import Home from "../Pages/Home"
 import MainLayout from "../layouts/MainLayout"
 import Visibility from "../Pages/Visibility"
 import EmojiChange from "../Pages/EmojiChange"
+import ListFruits from "../Pages/ListFruits"
 
 const AppRouter = () => {
     return (
@@ -20,6 +21,7 @@ const AppRouter = () => {
                 <Route path="/TextLive" element={<TextLive />} />
                 <Route path="/Visibility" element={<Visibility />} />
                 <Route path="/EmojiChange" element={<EmojiChange />} />
+                <Route path="/ListFruits" element={<ListFruits />} />
             </Route>
 
             <Route path="*" element={<NotFound />} />
